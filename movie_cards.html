@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>movie cards</title>
     <style>
-       
-     .movie-cards-container{
-        height: 800px;
-        background-color: #b3ccff;
-        margin: 0px;padding: 10px;
-     }
-     .movie_cards{
-        height: 400px;
-        width: 250px;
-        background-color: white;
-        margin: 50px;
-        padding: 20px;
-        border-radius: 10px;
-     }
-     .black-panther-image{
-        height: 280px;
-        width:250px;
-        margin-right:27px ;
-       
-        padding: 3px;
-        border-radius: 20px;
-     }
+        .movie-cards-container {
+            height: 800px;
+            background-color: #b3ccff;
+            margin: 0px;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .movie_cards {
+            height: 450px;
+            width: 250px;
+            background-color: white;
+            margin: 50px;
+            padding: 10px 10px 10px 10px;
+            border-radius: 20px;
+        }
+
+        .black-panther-image {
+            height: 280px;
+            width: 250px;
+            margin:0%;
+            padding: 3px;
+            border-radius: 30px 30px 10px 30px ;
+        }
+        .black-panther-subimage{
+            height: 120px;
+            margin-top: -40px;
+            margin-left: 25px;
+            border-radius: 5px;
+        }
     </style>
-    
+
 </head>
+
 <body>
     <div class="movie-cards-container">
-      <div class="movie_cards">
-        <img src="black_panther.png" height="200px" alt="black-panther" class="black-panther-image"/>
-      </div>
+        <div class="movie_cards">
+            <img src="black_panther.png" height="200px" alt="black-panther" class="black-panther-image" />
+            <img src="black_panther.png" height="100px" alt="black-panther" class="black-panther-subimage"/>
+        </div>
+        
+            
+       
     </div>
 </body>
+
 </html>
