@@ -14,6 +14,8 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            align-items: center;
+
         }
 
         .movie_cards {
@@ -23,6 +25,7 @@
             margin: 50px;
             padding: 10px 10px 10px 10px;
             border-radius: 20px;
+            text-align: center;
         }
 
         .movie-image {
@@ -33,7 +36,25 @@
             border-radius: 30px 30px 10px 30px;
         }
 
-      
+        .play-button {
+            height: 50px;
+            margin-left: 190px;
+            margin-top: -90px;
+        }
+
+        .movie-subimage {
+            height: 100px;
+            border-radius: 5px;
+            margin-top: -60px;
+            margin-right: 150px;
+        }
+
+        .movie_name {
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-top: -50px;
+            margin-left: 70px;
+        }
     </style>
 
 </head>
@@ -42,14 +63,26 @@
     <div class="movie-cards-container">
         <div class="movie_cards">
             <img src="black_panther.png" height="200px" alt="black-panther" class="movie-image" />
+            <img src="play_button.png" alt="play_button" class="play-button" />
+            <img src="black_panther.png" alt="black-panther" class="movie-subimage" />
+            <h4 class="movie_name">Black Panther<h4>
+                    <img src="rating.png" height="100px" alt="star rating" />
         </div>
         <div class="movie_cards">
             <img src="bright.png" height="200px" alt="bright" class="movie-image" />
+            <img src="play_button.png" alt="play_button" class="play-button" />
+            <img src="bright.png" alt="bright" class="movie-subimage" />
+            <h4 class="movie_name">Bright</h4>
+            <img src="rating.png" height="100px" alt="star rating" />
         </div>
         <div class="movie_cards">
             <img src="shaitan.png" height="200px" alt="bright" class="movie-image" />
+            <img src="play_button.png" alt="play_button" class="play-button" />
+            <img src="shaitan.png" alt="bright" class="movie-subimage" />
+            <h4 class="movie_name">Shaitan</h4>
+            <img src="rating.png" height="100px" alt="star rating" />
         </div>
-        
+
     </div>
 </body>
 
