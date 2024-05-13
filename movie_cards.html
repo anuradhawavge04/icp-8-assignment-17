@@ -6,14 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>movie cards</title>
     <style>
-        .movie-cards-container {
-            height: 800px;
+        body {
             background-color: #b3ccff;
+        }
+
+        .movie-cards-row-container {
+            height: 800px;
             margin: 0px;
             padding: 10px;
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .movie-cards-row-reverse-container {
+            height: 800px;
+            margin: 0px;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
             align-items: center;
 
         }
@@ -79,8 +92,7 @@
 </head>
 
 <body>
-    <h1>MOVIE CARDS BY USING HTML & CSS</h1>
-    <div class="movie-cards-container">
+    <div class="movie-cards-row-container">
         <div class="movie_cards">
             <img src="black_panther.png" height="200px" alt="black-panther" class="movie-image" />
             <img src="play_button.png" alt="play_button" class="play-button" />
@@ -102,7 +114,18 @@
             <h4 class="movie_name">Shaitan</h4>
             <img src="rating.png" height="100px" alt="star rating" />
         </div>
+    </div>
 
+    <div class="movie-cards-row-reverse-container">
+        <div class="movie_cards">
+            <img src="devdas.png" height="200px" alt="devdas" class="movie-image" />
+        </div>
+        <div class="movie_cards">
+            <img src="star_wars.png" height="200px" alt="star wars" class="movie-image" />
+        </div>
+        <div class="movie_cards">
+            <img src="pk.png" height="200px" alt="PK" class="movie-image" />
+        </div>
     </div>
 </body>
 
