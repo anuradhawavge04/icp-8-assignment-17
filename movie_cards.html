@@ -18,6 +18,7 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
         }
 
         .movie-cards-row-reverse-container {
@@ -28,8 +29,9 @@
             flex-direction: row-reverse;
             justify-content: space-between;
             align-items: start;
-
+            flex-wrap: wrap;
         }
+
         .movie-cards-column-container {
             height: 800px;
             margin: 0px;
@@ -38,6 +40,18 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .movie-cards-column-reverse-container {
+            height: 800px;
+            margin: 0px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-evenly;
+            align-items: end;
+            flex-wrap: wrap;
         }
 
         .movie_cards {
@@ -96,23 +110,26 @@
             margin-top: -50px;
             margin-left: 70px;
         }
-        .heading{
+
+        .heading {
             color: black;
             text-align: center;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin-bottom:-100px ;
+            margin-bottom: -100px;
         }
-        .heading-1{
+
+        .heading-1 {
             color: black;
             text-align: center;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin-bottom:-50px ;
+            margin-bottom: -50px;
         }
-        .heading-2{
+
+        .heading-2 {
             color: black;
             text-align: center;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin-bottom:-30px ;
+            margin-bottom: -30px;
         }
     </style>
 
@@ -144,7 +161,9 @@
             <h4 class="movie_name">Shaitan</h4>
             <img src="rating.png" height="100px" alt="star rating" />
         </div>
-    </div><hr><hr>
+    </div>
+    <hr>
+    <hr>
 
     <div class="heading-1">
         <h1><u>MOVIE CARDS BY USING ROW-REVERSE FLEXBOX PROPERTY</u></h1>
@@ -171,10 +190,12 @@
             <h4 class="movie_name">PK</h4>
             <img src="rating.png" height="100px" alt="star rating" />
         </div>
-    </div><hr><hr>
+    </div>
+    <hr>
+    <hr>
 
     <div class="heading-2">
-        <h1><u>MOVIE CARDS BY USING COLUMN & COLUMN-REERSE FLEXBOX PROPERTY</u></h1>
+        <h1><u>MOVIE CARDS BY USING COLUMN FLEXBOX PROPERTY</u></h1>
     </div>
     <div class="movie-cards-coloumn-container">
         <div class="movie_cards">
@@ -192,12 +213,40 @@
             <img src="rating.png" height="100px" alt="star rating" />
         </div>
         <div class="movie_cards">
-            <img src="smile.png" height="300px" alt="smile class="movie-image" />
+            <img src="smile.png" height="300px" alt="smile class=" movie-image" />
             <img src="play_button.png" alt="play_button" class="play-button" />
             <img src="smile.png" alt="smile" class="movie-subimage" />
             <h4 class="movie_name">Smile</h4>
             <img src="rating.png" height="100px" alt="star rating" />
         </div>
+        <hr>
+        <hr>
+
+        <div class="heading-2">
+            <h1><u>MOVIE CARDS BY USING COLUMN-REERSE FLEXBOX PROPERTY</u></h1>
+        </div>
+        <div class="movie_cards">
+            <img src="jawan.png" height="200px" alt="jawan" class="movie-image" />
+            <img src="play_button.png" alt="play_button" class="play-button" />
+            <img src="jawan.png" alt="jawan" class="movie-subimage" />
+            <h4 class="movie_name">Jawan<h4>
+                    <img src="rating.png" height="100px" alt="star rating" />
+        </div>
+        <div class="movie_cards">
+            <img src="kabir_singh.png" height="200px" alt="kabir_singh" class="movie-image" />
+            <img src="play_button.png" alt="play_button" class="play-button" />
+            <img src="kabir_singh.png" alt="kabir_singh" class="movie-subimage" />
+            <h4 class="movie_name">Kabir Singh</h4>
+            <img src="rating.png" height="100px" alt="star rating" />
+        </div>
+        <div class="movie_cards">
+            <img src="titanic.png" height="300px" alt="titanic" class="movie-image" />
+            <img src="play_button.png" alt="play_button" class="play-button" />
+            <img src="titanic.png" alt="titanic" class="movie-subimage" />
+            <h4 class="movie_name">Titanic</h4>
+            <img src="rating.png" height="100px" alt="star rating" />
+        </div>
+    </div>
 </body>
 
 </html>
