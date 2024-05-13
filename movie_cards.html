@@ -25,9 +25,9 @@
             margin: 0px;
             padding: 10px;
             display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: start;
 
         }
 
@@ -87,11 +87,26 @@
             margin-top: -50px;
             margin-left: 70px;
         }
+        .heading{
+            color: black;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom:-100px ;
+        }
+        .heading-1{
+            color: black;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom:-50px ;
+        }
     </style>
 
 </head>
 
 <body>
+    <div class="heading">
+        <h1><u>MOVIE CARDS BY USING ROW FLEXBOX PROPERTY</u></h1>
+    </div>
     <div class="movie-cards-row-container">
         <div class="movie_cards">
             <img src="black_panther.png" height="200px" alt="black-panther" class="movie-image" />
@@ -114,8 +129,11 @@
             <h4 class="movie_name">Shaitan</h4>
             <img src="rating.png" height="100px" alt="star rating" />
         </div>
-    </div>
+    </div><hr><hr>
 
+    <div class="heading-1">
+        <h1><u>MOVIE CARDS BY USING ROW-REVERSE FLEXBOX PROPERTY</u></h1>
+    </div>
     <div class="movie-cards-row-reverse-container">
         <div class="movie_cards">
             <img src="devdas.png" height="200px" alt="devdas" class="movie-image" />
